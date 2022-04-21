@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  background-color: hsl(210, 36%, 96%);
+}
+
+#app {
+  height: 100vh;
+}
+
+.date {
+  color: #ccc;
+  font-size: 0.85rem;
+}
+
+.deadline {
+  display: flex;
+}
+.deadline-format {
+  background: #222;
+  color: #fff;
+  margin-right: 1rem;
+  width: 5rem;
+  height: 5rem;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.deadline-format span {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.85rem;
+}
+.deadline h4:not(.expired) {
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+  letter-spacing: 2px;
+}
